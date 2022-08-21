@@ -1,0 +1,70 @@
+body{
+    background-color: #352f5b;
+  }
+  
+  .container{
+    max-width: 450px;
+  }
+
+    
+        .action_btn {
+            color: #fff;
+
+            border: none;
+            margin-left: 10px;
+
+            background-color: #423a6f;
+            margin: 0 auto;
+        }
+        .action_btn:hover {
+            color: blue;
+
+            border: none;
+            margin-left: 10px;
+
+            margin: 0 auto;
+        }
+  input[type=text],
+  input[type=text]:focus{
+    color: #fff;
+    border : 10px;
+    background-color: rgba(0, 0, 0, .2);
+  }
+  .newbtn{
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .2);
+    margin-left: 10px;
+    padding: 5px;
+  }
+  .btn{
+    color: #fff;
+    margin-top: 10px;
+    border-radius:5px ;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 5px;
+    text-align: center;
+}
+.btn:hover{
+    color: #fff;
+    margin-top: 10px;
+    border-radius:5px ;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 5px;
+}
+  li.list-group-item{
+    background-color: #423a6f;
+    color: #F8F9FA;
+  }
+  
+  .delete{
+    cursor: pointer;
+  }
+  
+  label.add{
+    margin-bottom: 15px;
+  }
+  
+  .filtred{
+    display: none !important;
+  }
